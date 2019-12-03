@@ -8,4 +8,5 @@ This is the way I learned about FreeRTOS during by course on Udemy(Mastering RTO
 These projects were done using system workbench based on Eclipse.
 I have also used Segger System View to learn more abount the FreeRTOS scheduling. This I did while analysing the plots from Segger system View.
 (For communication USART was used)
-To find the main.c projectname/src/main.c For eg: 
+Note:
+To find the main.c for each project Path will be :  projectname/src/main.c For eg: RTOS/workspace/STM32_FreeRTOS_IdleHook/src/main.c
