@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="EXPORT_DIALOG">
+		<item value="0x20012088" key="Start"/>
+		<item value="0x20014086" key="End"/>
+		<item value="C:\Users\Arjav\workspace\STM32_HelloWorld\Segger_mem_dumps\003freertos_hw.SVdat" key="File"/>
+		<item value="rawbinary" key="SELECTED_EXPORTER"/>
+		<item value="0x20012088" key="Initial address"/>
+	</section>
+</section>

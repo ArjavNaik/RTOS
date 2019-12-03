@@ -1,0 +1,23 @@
+20:02:54 **** Build of configuration Debug for project STM32_FreeRTOS_counting_sema ****
+make -j12 all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\Arjav\workspace\STM32_FreeRTOS_counting_sema\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -I"C:/Users/Arjav/workspace/STM32_FreeRTOS_counting_sema/StdPeriph_Driver/inc" -I"C:/Users/Arjav/workspace/STM32_FreeRTOS_counting_sema/Third-Party/SEGGER/Config" -I"C:/Users/Arjav/workspace/STM32_FreeRTOS_counting_sema/Third-Party/SEGGER/OS" -I"C:/Users/Arjav/workspace/STM32_FreeRTOS_counting_sema/Third-Party/SEGGER/SEGGER" -I"C:/Users/Arjav/workspace/STM32_FreeRTOS_counting_sema/Config" -I"C:/Users/Arjav/workspace/STM32_FreeRTOS_counting_sema/Third-Party/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"C:/Users/Arjav/workspace/STM32_FreeRTOS_counting_sema/Third-Party/FreeRTOS/org/Source/include" -I"C:/Users/Arjav/workspace/STM32_FreeRTOS_counting_sema/inc" -I"C:/Users/Arjav/workspace/STM32_FreeRTOS_counting_sema/CMSIS/device" -I"C:/Users/Arjav/workspace/STM32_FreeRTOS_counting_sema/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: STM32_FreeRTOS_counting_sema.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=rdimon.specs -lc -lrdimon -T"C:/Users/Arjav/workspace/STM32_FreeRTOS_counting_sema/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "STM32_FreeRTOS_counting_sema.elf" @"objects.list"   -lm
+Finished building target: STM32_FreeRTOS_counting_sema.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "STM32_FreeRTOS_counting_sema.elf" "STM32_FreeRTOS_counting_sema.bin"
+arm-none-eabi-size "STM32_FreeRTOS_counting_sema.elf"
+   text	   data	    bss	    dec	    hex	filename
+  20544	   1120	  88300	 109964	  1ad8c	STM32_FreeRTOS_counting_sema.elf
+ 
+
+20:02:56 Build Finished (took 2s.25ms)
+

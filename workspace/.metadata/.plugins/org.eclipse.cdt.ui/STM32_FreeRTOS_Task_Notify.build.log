@@ -1,0 +1,23 @@
+17:50:31 **** Incremental Build of configuration Debug for project STM32_FreeRTOS_Task_Notify ****
+make -j12 all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+C:\Users\Arjav\workspace\STM32_FreeRTOS_Task_Notify\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_STDPERIPH_DRIVER -I"C:/Users/Arjav/workspace/STM32_FreeRTOS_Task_Notify/StdPeriph_Driver/inc" -I"C:/Users/Arjav/workspace/STM32_FreeRTOS_Task_Notify/Third-Party/SEGGER/Config" -I"C:/Users/Arjav/workspace/STM32_FreeRTOS_Task_Notify/Third-Party/SEGGER/OS" -I"C:/Users/Arjav/workspace/STM32_FreeRTOS_Task_Notify/Third-Party/SEGGER/SEGGER" -I"C:/Users/Arjav/workspace/STM32_FreeRTOS_Task_Notify/Config" -I"C:/Users/Arjav/workspace/STM32_FreeRTOS_Task_Notify/Third-Party/FreeRTOS/org/Source/portable/GCC/ARM_CM4F" -I"C:/Users/Arjav/workspace/STM32_FreeRTOS_Task_Notify/Third-Party/FreeRTOS/org/Source/include" -I"C:/Users/Arjav/workspace/STM32_FreeRTOS_Task_Notify/inc" -I"C:/Users/Arjav/workspace/STM32_FreeRTOS_Task_Notify/CMSIS/device" -I"C:/Users/Arjav/workspace/STM32_FreeRTOS_Task_Notify/CMSIS/core" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: STM32_FreeRTOS_Task_Notify.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=rdimon.specs -lc -lrdimon -T"C:/Users/Arjav/workspace/STM32_FreeRTOS_Task_Notify/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "STM32_FreeRTOS_Task_Notify.elf" @"objects.list"   -lm
+Finished building target: STM32_FreeRTOS_Task_Notify.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "STM32_FreeRTOS_Task_Notify.elf" "STM32_FreeRTOS_Task_Notify.bin"
+arm-none-eabi-size "STM32_FreeRTOS_Task_Notify.elf"
+   text	   data	    bss	    dec	    hex	filename
+  37536	   2536	  88356	 128428	  1f5ac	STM32_FreeRTOS_Task_Notify.elf
+ 
+
+17:50:39 Build Finished (took 8s.461ms)
+

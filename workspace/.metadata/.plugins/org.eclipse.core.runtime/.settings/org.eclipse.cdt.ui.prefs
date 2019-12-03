@@ -1,0 +1,8 @@
+content_assist_category_order=org.eclipse.mylyn.cdt.ui.parserProposalCategory\:0\u0000org.eclipse.cdt.ui.templateProposalCategory\:1\u0000org.eclipse.cdt.ui.parserProposalCategory\:2\u0000org.eclipse.cdt.ui.helpProposalCategory\:3\u0000org.eclipse.cdt.ui.textProposalCategory\:65539\u0000
+content_assist_disabled_computers=org.eclipse.cdt.ui.textProposalCategory\u0000
+content_assist_order_proposals=true
+content_assist_proposals_timeout=5000
+eclipse.preferences.version=1
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true
